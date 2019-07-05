@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "207157979718-86pms0l8bouqauht769e56qu0jd7tb8u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tijo.personalchatapp",
+            "certificate_hash": "4675ba4449a1bf7826353325dc23b24bf8647078"
+          }
+        },
+        {
           "client_id": "207157979718-776mchlqn7lj0lseiiuhv7dokce2r7ag.apps.googleusercontent.com",
           "client_type": 3
         }

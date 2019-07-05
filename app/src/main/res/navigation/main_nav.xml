@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/main_nav">
-
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/main_nav"
+            app:startDestination="@id/loginOrSignUpFragment3">
+    <fragment android:id="@+id/signUpFragment2" android:name="com.tijo.personalchatapp.SignUpFragment"
+              android:label="fragment_sign_up" tools:layout="@layout/fragment_sign_up">
+        <action android:id="@+id/action_signUpFragment2_to_chatFragment" app:destination="@id/chatFragment"
+                app:enterAnim="@anim/nav_default_enter_anim" app:exitAnim="@anim/nav_default_exit_anim"
+                app:popEnterAnim="@anim/nav_default_pop_enter_anim" app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+    <fragment android:id="@+id/loginFragment" android:name="com.tijo.personalchatapp.LoginFragment"
+              android:label="fragment_login" tools:layout="@layout/fragment_login"/>
+    <fragment android:id="@+id/loginOrSignUpFragment3" android:name="com.tijo.personalchatapp.LoginOrSignUpFragment"
+              android:label="fragment_login_or_sign_up" tools:layout="@layout/fragment_login_or_sign_up">
+        <action android:id="@+id/action_loginOrSignUpFragment3_to_signUpFragment2"
+                app:destination="@id/signUpFragment2"/>
+        <action android:id="@+id/action_loginOrSignUpFragment3_to_loginFragment" app:destination="@id/loginFragment"/>
+    </fragment>
+    <fragment android:id="@+id/chatFragment" android:name="com.tijo.personalchatapp.ChatFragment"
+              android:label="fragment_chat" tools:layout="@layout/fragment_chat">
+        <argument android:name="username" app:argType="string" android:defaultValue='""'/>
+    </fragment>
 </navigation>
