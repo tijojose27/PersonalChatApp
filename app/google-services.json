@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "207157979718",
+    "firebase_url": "https://personalchatapp-7f52b.firebaseio.com",
+    "project_id": "personalchatapp-7f52b",
+    "storage_bucket": "personalchatapp-7f52b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207157979718:android:d2cd86870d27e0db",
+        "android_client_info": {
+          "package_name": "com.tijo.personalchatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207157979718-776mchlqn7lj0lseiiuhv7dokce2r7ag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqERWMH4B9FwwFUMYDXtmUJz38kOxjme0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207157979718-776mchlqn7lj0lseiiuhv7dokce2r7ag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
